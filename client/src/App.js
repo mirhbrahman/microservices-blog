@@ -1,6 +1,11 @@
+import PostCreate from "./PostCreate";
+
 function App() {
   return (
-    <div>Blog app</div>
+    <div className="container">
+      <h1>Create Post</h1>
+      <PostCreate />
+    </div>
   );
 }
 
